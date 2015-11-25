@@ -75,7 +75,7 @@ h2 {
   background-color: #EDEDED;
 }
 
-input, textarea, select, uneditable-input {
+input, textarea, select, .uneditable-input {
   border: 1px solid #d2d2d2;
   border-radius: 5px;
   width: 100%;
@@ -84,6 +84,10 @@ input, textarea, select, uneditable-input {
 
 input {
   height: auto !important;
+}
+
+.input_checkbox input {
+ width: auto !important; 
 }
 
 span.picture {
